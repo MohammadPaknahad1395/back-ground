@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .change-drop {
+        @apply transition-all duration-200 top-1/2 left-1/2;
+    }
+}
